@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Zad4" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-87K2TN0\SQLEXPRESS;Initial Catalog=Zad4;Integrated Security=True" SettingsObjectName="Zad4.Properties.Settings" SettingsPropertyName="Zad4ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Invoices" Member="Invoices">
+    <Type Name="Invoice">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CustomerID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PriceNetto" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="VatTypeID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProductListID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="VatType_Invoice" Member="VatType" ThisKey="VatTypeID" OtherKey="ID" Type="VatType" IsForeignKey="true" />
+      <Association Name="Customer_Invoice" Member="Customer" ThisKey="CustomerID" OtherKey="ID" Type="Customer" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VatTypes" Member="VatTypes">
+    <Type Name="VatType">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Value" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="VatType_Invoice" Member="Invoices" ThisKey="ID" OtherKey="VatTypeID" Type="Invoice" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Customers" Member="Customers">
+    <Type Name="Customer">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StreetAdress" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BuildingNumber" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PostalCode" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Country" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Customer_Invoice" Member="Invoices" ThisKey="ID" OtherKey="CustomerID" Type="Invoice" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Products" Member="Products">
+    <Type Name="Product">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Value" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="Product_ProductList" Member="ProductLists" ThisKey="ID" OtherKey="ProductID" Type="ProductList" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ProductLists" Member="ProductLists">
+    <Type Name="ProductList">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ProductID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Product_ProductList" Member="Product" ThisKey="ProductID" OtherKey="ID" Type="Product" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
