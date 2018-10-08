@@ -1,0 +1,17 @@
+C:\Users\Fifi\source\repos\FilipMaleckiLab5\FilipMaleckiLab5\bin\FilipMaleckiLab5.dll.config
+C:\Users\Fifi\source\repos\FilipMaleckiLab5\FilipMaleckiLab5\bin\FilipMaleckiLab5.dll
+C:\Users\Fifi\source\repos\FilipMaleckiLab5\FilipMaleckiLab5\bin\FilipMaleckiLab5.pdb
+C:\Users\Fifi\source\repos\FilipMaleckiLab5\FilipMaleckiLab5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Fifi\source\repos\FilipMaleckiLab5\FilipMaleckiLab5\bin\Newtonsoft.Json.dll
+C:\Users\Fifi\source\repos\FilipMaleckiLab5\FilipMaleckiLab5\bin\System.Net.Http.Formatting.dll
+C:\Users\Fifi\source\repos\FilipMaleckiLab5\FilipMaleckiLab5\bin\System.Web.Http.dll
+C:\Users\Fifi\source\repos\FilipMaleckiLab5\FilipMaleckiLab5\bin\System.Web.Http.WebHost.dll
+C:\Users\Fifi\source\repos\FilipMaleckiLab5\FilipMaleckiLab5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Fifi\source\repos\FilipMaleckiLab5\FilipMaleckiLab5\bin\Newtonsoft.Json.xml
+C:\Users\Fifi\source\repos\FilipMaleckiLab5\FilipMaleckiLab5\bin\System.Net.Http.Formatting.xml
+C:\Users\Fifi\source\repos\FilipMaleckiLab5\FilipMaleckiLab5\bin\System.Web.Http.xml
+C:\Users\Fifi\source\repos\FilipMaleckiLab5\FilipMaleckiLab5\bin\System.Web.Http.WebHost.xml
+C:\Users\Fifi\source\repos\FilipMaleckiLab5\FilipMaleckiLab5\obj\Debug\FilipMaleckiLab5.csprojResolveAssemblyReference.cache
+C:\Users\Fifi\source\repos\FilipMaleckiLab5\FilipMaleckiLab5\obj\Debug\FilipMaleckiLab5.csproj.CoreCompileInputs.cache
+C:\Users\Fifi\source\repos\FilipMaleckiLab5\FilipMaleckiLab5\obj\Debug\FilipMaleckiLab5.dll
+C:\Users\Fifi\source\repos\FilipMaleckiLab5\FilipMaleckiLab5\obj\Debug\FilipMaleckiLab5.pdb
