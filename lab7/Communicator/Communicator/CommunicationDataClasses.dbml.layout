@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="CommunicationDataClasses">
+  <DataContextMoniker Name="/CommunicationDataClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="515c6156-a09a-4592-b536-ca683128c015" absoluteBounds="3.5, 0.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/CommunicationDataClassesDataContext/FilipMalecki_Converstation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1ea3fb0a-5b52-4b38-8f52-54b6500bf023" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6549ff12-a9d1-4bc5-a93f-739d92042b9c" absoluteBounds="0.75, 0.875, 2, 1.5785953776041664">
+      <DataClassMoniker Name="/CommunicationDataClassesDataContext/FilipMalecki_User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8c49c2b7-8379-4d5a-a90d-369f7bdeae28" absoluteBounds="0.765, 1.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.66429768880208); (3.5 : 1.66429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CommunicationDataClassesDataContext/FilipMalecki_User/FilipMalecki_User_FilipMalecki_Converstation" />
+      <nodes>
+        <classShapeMoniker Id="6549ff12-a9d1-4bc5-a93f-739d92042b9c" />
+        <classShapeMoniker Id="515c6156-a09a-4592-b536-ca683128c015" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
