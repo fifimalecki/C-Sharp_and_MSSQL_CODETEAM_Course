@@ -1,0 +1,11 @@
+C:\Users\Fifi\source\repos\FilipMaleckiLab1\FilipMaleckiLab1\obj\Debug\FilipMaleckiLab1.csprojResolveAssemblyReference.cache
+C:\Users\Fifi\source\repos\FilipMaleckiLab1\FilipMaleckiLab1\obj\Debug\FilipMaleckiLab1.FormMain.resources
+C:\Users\Fifi\source\repos\FilipMaleckiLab1\FilipMaleckiLab1\obj\Debug\FilipMaleckiLab1.Properties.Resources.resources
+C:\Users\Fifi\source\repos\FilipMaleckiLab1\FilipMaleckiLab1\obj\Debug\FilipMaleckiLab1.csproj.GenerateResource.Cache
+C:\Users\Fifi\source\repos\FilipMaleckiLab1\FilipMaleckiLab1\obj\Debug\FilipMaleckiLab1.csproj.CoreCompileInputs.cache
+C:\Users\Fifi\source\repos\FilipMaleckiLab1\FilipMaleckiLab1\bin\Debug\FilipMaleckiLab1.exe.config
+C:\Users\Fifi\source\repos\FilipMaleckiLab1\FilipMaleckiLab1\bin\Debug\FilipMaleckiLab1.exe
+C:\Users\Fifi\source\repos\FilipMaleckiLab1\FilipMaleckiLab1\bin\Debug\FilipMaleckiLab1.pdb
+C:\Users\Fifi\source\repos\FilipMaleckiLab1\FilipMaleckiLab1\obj\Debug\FilipMaleckiLab1.exe
+C:\Users\Fifi\source\repos\FilipMaleckiLab1\FilipMaleckiLab1\obj\Debug\FilipMaleckiLab1.pdb
+C:\Users\Fifi\source\repos\FilipMaleckiLab1\FilipMaleckiLab1\obj\Debug\FilipMaleckiLab1.FormFunction.resources
