@@ -1,0 +1,10 @@
+C:\Users\Fifi\Desktop\cpc2017-2\filip_malecki\lab2\GameTest\GameTest\bin\Debug\GameTest.exe.config
+C:\Users\Fifi\Desktop\cpc2017-2\filip_malecki\lab2\GameTest\GameTest\bin\Debug\GameTest.exe
+C:\Users\Fifi\Desktop\cpc2017-2\filip_malecki\lab2\GameTest\GameTest\bin\Debug\GameTest.pdb
+C:\Users\Fifi\Desktop\cpc2017-2\filip_malecki\lab2\GameTest\GameTest\obj\Debug\GameTest.csprojResolveAssemblyReference.cache
+C:\Users\Fifi\Desktop\cpc2017-2\filip_malecki\lab2\GameTest\GameTest\obj\Debug\GameTest.FormMain.resources
+C:\Users\Fifi\Desktop\cpc2017-2\filip_malecki\lab2\GameTest\GameTest\obj\Debug\GameTest.Properties.Resources.resources
+C:\Users\Fifi\Desktop\cpc2017-2\filip_malecki\lab2\GameTest\GameTest\obj\Debug\GameTest.csproj.GenerateResource.Cache
+C:\Users\Fifi\Desktop\cpc2017-2\filip_malecki\lab2\GameTest\GameTest\obj\Debug\GameTest.csproj.CoreCompileInputs.cache
+C:\Users\Fifi\Desktop\cpc2017-2\filip_malecki\lab2\GameTest\GameTest\obj\Debug\GameTest.exe
+C:\Users\Fifi\Desktop\cpc2017-2\filip_malecki\lab2\GameTest\GameTest\obj\Debug\GameTest.pdb
